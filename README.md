@@ -34,12 +34,16 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 semantic html is html that adds accessibility to html by the tags describing what they actually are
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 display block always starts a new line and display inline will show the elements in the same line
+
 3. What are the 4 areas of the box model?
 margin, border, padding, content
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 cross-axis
+
 5. Explain why git is valuable to a team of developers.
 it helps you keep track of changes that have been made, when they have been made, and allows you to create branches in order to make local changes before you update those changes.
 

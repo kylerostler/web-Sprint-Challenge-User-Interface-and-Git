@@ -48,9 +48,9 @@ table {
 
 * {
     box-sizing: border-box;
-    /* padding:0;
-    margin:0; */
-    /* max-width:100%; */
+    padding:0;
+    margin:0;
+    max-width:100%;
     border: 1px solid grey;
 }
 
@@ -83,15 +83,20 @@ p {
 #top{
     display:flex;
     align-items:center;
-    justify-content:space-around;
-    margin-bottom: 20px;
+    justify-content:space-between;
+    margin-bottom: 30px;
+    align-items:flex-end;
 }
-
 #top nav a{
     text-decoration: none;
-    margin:20px;
+    padding:20px;
+    margin:12px;
+    color:black;
+    font-family: 'Roboto', sans-serif;
 }
-
+.street1{
+    margin-bottom:30px;
+}
 
 
 .top-content {
@@ -134,7 +139,9 @@ p {
     align-items: center;
     justify-content: center;
 }
-
+.middle-content .boxes .box, .one{
+    background:teal
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;

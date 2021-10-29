@@ -214,6 +214,13 @@ footer nav a {
 /*middle portion styles for about page*/
 .test1{
     display:flex;
+}
+.strategy{
+    margin:20px;
+    border-bottom:1px dashed black;
+}
+.howWeWork{
+    margin:20px;
     border-bottom:1px dashed black;
 }
 .test1 button{
@@ -224,7 +231,14 @@ footer nav a {
 }
 .test2{
     display:flex;
-    justify-self:space-around;
+    justify-content:space-between;
+}
+.placesWeWork{
+    margin:20px;
+    border-bottom:1px dashed black;
+}
+.collaboration{
+    margin:20px;
     border-bottom:1px dashed black;
 }
 .test2 button{

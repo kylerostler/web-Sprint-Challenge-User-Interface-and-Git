@@ -18,7 +18,6 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -49,6 +48,7 @@ table {
 
 * {
     box-sizing: border-box;
+    border: 1px solid grey;
 }
 
 html, body {
@@ -77,19 +77,18 @@ p {
     background-position: center;
 }
 /*header styles*/
-.top{
+#top{
     display:flex;
+    align-items:center;
+    justify-content:space-around;
+    margin-bottom: 20px;
 }
 .left{
     background-image: url('../img/lambda-black.png');
-    display:flex;
-    height:30px;
 }
-.right{
-    display:flex;
-}
-nav a{
+#top nav a{
     text-decoration: none;
+    margin:20px;
 }
 
 .top-content {

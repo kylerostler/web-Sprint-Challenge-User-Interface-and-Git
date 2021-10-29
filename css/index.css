@@ -82,7 +82,6 @@ p {
 /*header styles*/
 #top{
     display:flex;
-
     justify-content:space-between;
     margin-bottom: 30px;
     align-items:flex-end;
@@ -209,19 +208,19 @@ footer nav a {
 #aboutinfo{
     border-bottom:1px dashed black;
     margin-bottom:20px;
+    padding:15px;
 }
 
 /*middle portion styles for about page*/
 .test1{
     display:flex;
-    justify-content:space-between;
 }
 .strategy{
-    /* margin:20px; */
+    margin:20px 20px 20px 0px;
     border-bottom:1px dashed black;
 }
 .howWeWork{
-    /* margin:20px; */
+    margin:20px 0px 20px 20px;
     border-bottom:1px dashed black;
 }
 .test1 button{
@@ -232,14 +231,13 @@ footer nav a {
 }
 .test2{
     display:flex;
-    justify-content:space-between;
 }
 .placesWeWork{
-    margin:20px;
+    margin:20px 20px 20px 0px;
     border-bottom:1px dashed black;
 }
 .collaboration{
-    margin:20px;
+    margin:20px 0px 20px 20px;
     border-bottom:1px dashed black;
 }
 .test2 button{
@@ -249,5 +247,9 @@ footer nav a {
     background: white;
 }
 #preview{
+    margin:30px;
+}
+/*end styles*/
+#end{
     margin:30px;
 }

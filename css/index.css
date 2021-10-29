@@ -212,22 +212,40 @@ footer nav a {
 }
 
 /*middle portion styles for about page*/
+.test1 h2{
+    margin:10px 0px 10px 0px;
+}
 .test1{
     display:flex;
 }
 .strategy{
     margin:20px 20px 20px 0px;
     border-bottom:1px dashed black;
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+}
+.strategy p{
+    margin:5px 0px 5px 0px;
 }
 .howWeWork{
     margin:20px 0px 20px 20px;
     border-bottom:1px dashed black;
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+}
+.howWeWork p{
+    margin:5px 0px 5px 0px;
 }
 .test1 button{
     border-radius:5px;
     padding:5px 12px 5px 12px;
-    margin:10px;
     background: white;
+    margin:10px 0px 15px 0px;
+}
+.test2 h2{
+    margin:10px 0px 10px 0px;
 }
 .test2{
     display:flex;
@@ -235,16 +253,28 @@ footer nav a {
 .placesWeWork{
     margin:20px 20px 20px 0px;
     border-bottom:1px dashed black;
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+}
+.placesWeWork p{
+    margin:5px 0px 5px 0px;
 }
 .collaboration{
     margin:20px 0px 20px 20px;
     border-bottom:1px dashed black;
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start; /*trying to align the button the left*/
+}
+.collaboration p{
+    margin:5px 0px 5px 0px;
 }
 .test2 button{
     border-radius:5px;
     padding:5px 12px 5px 12px;
-    margin:10px;
     background: white;
+    margin:10px 0px 15px 0px;
 }
 #preview{
     margin:30px;

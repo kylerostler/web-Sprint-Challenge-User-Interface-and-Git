@@ -82,7 +82,7 @@ p {
 /*header styles*/
 #top{
     display:flex;
-    align-items:center;
+
     justify-content:space-between;
     margin-bottom: 30px;
     align-items:flex-end;
@@ -90,7 +90,7 @@ p {
 #top nav a{
     text-decoration: none;
     padding:20px;
-    margin:12px;
+    margin:15px;
     color:black;
     font-family: 'Roboto', sans-serif;
 }
@@ -214,13 +214,14 @@ footer nav a {
 /*middle portion styles for about page*/
 .test1{
     display:flex;
+    justify-content:space-between;
 }
 .strategy{
-    margin:20px;
+    /* margin:20px; */
     border-bottom:1px dashed black;
 }
 .howWeWork{
-    margin:20px;
+    /* margin:20px; */
     border-bottom:1px dashed black;
 }
 .test1 button{

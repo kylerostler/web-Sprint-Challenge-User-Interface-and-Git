@@ -18,7 +18,6 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -49,6 +48,10 @@ table {
 
 * {
     box-sizing: border-box;
+    padding:0;
+    margin:0;
+    max-width:100%;
+    /* border: 1px solid grey; */
 }
 
 html, body {
@@ -70,6 +73,30 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+/*helper classes*/
+.bg-img{
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+/*header styles*/
+#top{
+    display:flex;
+    justify-content:space-between;
+    margin-bottom: 30px;
+    align-items:flex-end;
+}
+#top nav a{
+    text-decoration: none;
+    padding:20px;
+    margin:15px;
+    color:black;
+    font-family: 'Roboto', sans-serif;
+}
+.street1{
+    margin-bottom:30px;
+}
+
 
 .top-content {
     display: flex;
@@ -111,7 +138,36 @@ p {
     align-items: center;
     justify-content: center;
 }
-
+.middle-content .boxes .box.one{
+    background:teal;
+}
+.middle-content .boxes .box.two{
+    background:gold;
+}
+.middle-content .boxes .box.three{
+    background: cadetblue;
+}
+.middle-content .boxes .box.four{
+    background: coral;
+}
+.middle-content .boxes .box.five{
+    background: crimson;
+}
+.middle-content .boxes .box.six{
+    background: forestgreen;
+}
+.middle-content .boxes .box.seven{
+    background: darkorchid;
+}
+.middle-content .boxes .box.eight{
+    background: hotpink;
+}
+.middle-content .boxes .box.nine{
+    background: indigo;
+}
+.middle-content .boxes .box.ten{
+    background: dodgerblue;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +199,87 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/*about page styles*/
+#aboutinfo p{
+    margin-bottom:10px;
+}
+#aboutinfo{
+    border-bottom:1px dashed black;
+    margin-bottom:20px;
+    padding:15px;
+}
+
+/*middle portion styles for about page*/
+.test1 h2{
+    margin:10px 0px 10px 0px;
+}
+.test1{
+    display:flex;
+}
+.strategy{
+    margin:20px 20px 20px 0px;
+    border-bottom:1px dashed black;
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+}
+.strategy p{
+    margin:5px 0px 5px 0px;
+}
+.howWeWork{
+    margin:20px 0px 20px 20px;
+    border-bottom:1px dashed black;
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+}
+.howWeWork p{
+    margin:5px 0px 5px 0px;
+}
+.test1 button{
+    border-radius:5px;
+    padding:5px 12px 5px 12px;
+    background: white;
+    margin:10px 0px 15px 0px;
+}
+.test2 h2{
+    margin:10px 0px 10px 0px;
+}
+.test2{
+    display:flex;
+}
+.placesWeWork{
+    margin:20px 20px 20px 0px;
+    border-bottom:1px dashed black;
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+}
+.placesWeWork p{
+    margin:5px 0px 5px 0px;
+}
+.collaboration{
+    margin:20px 0px 20px 20px;
+    border-bottom:1px dashed black;
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start; /*trying to align the button the left*/
+}
+.collaboration p{
+    margin:5px 0px 5px 0px;
+}
+.test2 button{
+    border-radius:5px;
+    padding:5px 12px 5px 12px;
+    background: white;
+    margin:10px 0px 15px 0px;
+}
+#preview{
+    margin:30px;
+}
+/*end styles*/
+#end{
+    margin:30px;
 }

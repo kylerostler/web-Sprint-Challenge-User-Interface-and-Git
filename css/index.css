@@ -70,6 +70,27 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+/*helper classes*/
+.bg-img{
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+/*header styles*/
+.top{
+    display:flex;
+}
+.left{
+    background-image: url('../img/lambda-black.png');
+    display:flex;
+    height:30px;
+}
+.right{
+    display:flex;
+}
+nav a{
+    text-decoration: none;
+}
 
 .top-content {
     display: flex;
